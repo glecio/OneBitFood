@@ -1,0 +1,15 @@
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+/home/glecio/.asdf/installs/ruby/2.7.1/bin/ruby -I /home/glecio/.asdf/installs/ruby/2.7.1/lib/ruby/2.7.0 -r ./siteconf20210510-130364-1ghu4qz.rb extconf.rb
+creating Makefile
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210510-130364-1jg6ebq/bootsnap

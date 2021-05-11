@@ -1,0 +1,16 @@
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+/home/glecio/.asdf/installs/ruby/2.7.1/bin/ruby -I /home/glecio/.asdf/installs/ruby/2.7.1/lib/ruby/2.7.0 -r ./siteconf20210510-130364-18ip6qx.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/glecio/Projects/RoR/OneBitFood/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210510-130364-wnprwo/racc

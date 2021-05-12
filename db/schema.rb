@@ -43,7 +43,6 @@ ActiveRecord::Schema.define(version: 2021_05_11_154119) do
     t.integer "quantity"
     t.integer "order_id", null: false
     t.integer "product_id", null: false
-    t.integer "status", default: 0
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["order_id"], name: "index_order_products_on_order_id"
@@ -54,7 +53,7 @@ ActiveRecord::Schema.define(version: 2021_05_11_154119) do
     t.string "name"
     t.string "phone_number"
     t.float "total_value"
-    t.integer "status"
+    t.integer "status", default: 0
     t.integer "restaurant_id", null: false
     t.string "city"
     t.string "street"

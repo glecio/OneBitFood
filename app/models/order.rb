@@ -1,5 +1,5 @@
 class Order < ApplicationRecord
-  belongs_to :restaurant
+  belongs_to :restaurants
   has_many :order_products
 
   validates :name, :phone_number, :total_value, :city, :neighborhood, :street, :number, presence: true
@@ -20,3 +20,4 @@ class Order < ApplicationRecord
     self.total_value = final_price + self.restaurant.delivery_tax
   end
 end
+

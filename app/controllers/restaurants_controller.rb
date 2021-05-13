@@ -6,6 +6,7 @@ class RestaurantsController < ApplicationController
     filter_by_query if params[:q]
     filter_by_city if params[:city]
     filter_by_category if params[:category]
+    render json: @restaurants
   end
 
   def show
